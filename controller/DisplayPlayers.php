@@ -16,5 +16,7 @@ class DisplayPlayers implements IDisplayPlayers {
             $players = json_decode($players);
         }
 
+        $layout=RenderLayout($isCLI);
+        echo $layout->output($players);
     }   
 }
