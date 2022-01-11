@@ -1,4 +1,5 @@
 <?php 
+
 require_once('../model/IReadPlayer.php');
 
 class ReadPlayers implements IReadPlayers {

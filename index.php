@@ -1,4 +1,4 @@
 <?php
 
 
-header('location: view/index.php');
+header('location: src/view/index.php');
