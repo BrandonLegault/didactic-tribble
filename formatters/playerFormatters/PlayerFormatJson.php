@@ -1,5 +1,7 @@
 <?php 
 
+require_once('../model/Player.php');
+
 class PlayerFormatJson extends Player {
 
     private $playerData;
